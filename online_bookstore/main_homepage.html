@@ -1,0 +1,24 @@
+<!--main home page,online bookstore,payman,NOV2015,tutor Mark,Colchester inst.-->
+<!DOCTYPE html>
+<html>
+ <head>
+    <!--title of page-->
+  <title>main home page</title>
+  <meta charset="UTF-8">
+ </head>
+	<body>
+	<h1 style="color:blue;margin-left:30px;">Welcome to online bookstore</h1>
+	<p>Please choose one of the options</p><br>
+	<form action="customer_homepage.php" method="POST">
+	<input type="submit" value="Customer">
+	</form><br><br>
+		<form action="author_homepage.php" method="POST">
+		<input type="submit" value="Author">
+		</form><br><br>
+		
+	<form action="customer_shop.php" method="POST">
+	<input type= "hidden" name="guest"><a href="customer_shop.php"></a><input type="submit" value= "Guest">
+	</form>
+	
+	</body>
+</html>
